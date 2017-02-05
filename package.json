@@ -1,0 +1,25 @@
+{
+  "name": "fetcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spot-On-The-Fly/fetcher.git"
+  },
+  "author": "Kieran Rigby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Spot-On-The-Fly/fetcher/issues"
+  },
+  "homepage": "https://github.com/Spot-On-The-Fly/fetcher#readme",
+  "dependencies": {
+    "express": "^4.14.1",
+    "request": "^2.79.0",
+    "spotify-web-api-node": "^2.3.6"
+  }
+}
